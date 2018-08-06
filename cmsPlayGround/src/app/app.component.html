@@ -1,0 +1,19 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="app-holder" *ngIf="content">
+  <div style="text-align:center">
+    <h1>
+      {{content['title']}} {{ appName }}!
+    </h1>
+  </div>
+  <div class="language-holder">
+    <h2>{{content['language']}}: </h2>
+        <ul>
+          <li (click)="changeLanguage('en')">en</li>
+          <li (click)="changeLanguage('pl')">pl</li>
+        </ul>
+  </div>
+  <button mat-raised-button color="primary" (click)="openTestModal()">pop up example</button>
+
+
+</div>
+
