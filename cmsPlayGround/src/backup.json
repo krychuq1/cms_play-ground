@@ -1,0 +1,62 @@
+[
+  {
+    "_id": "5b681fa3e8bdec24a2006977",
+    "name": "app",
+    "language": "en",
+    "brand": "playground",
+    "type": "page",
+    "content": [
+      {
+        "value": "Welcome to play ground",
+        "key": "title"
+      },
+      {
+        "value": "Language switcher",
+        "key": "language"
+      }
+    ]
+  },
+  {
+    "_id": "5b6833a7e8bdec24a2006978",
+    "name": "app",
+    "language": "pl",
+    "brand": "playground",
+    "type": "page",
+    "content": [
+      {
+        "value": "Witaj na placu zabaw ",
+        "key": "title"
+      },
+      {
+        "value": "Zmiana jezyka",
+        "key": "language"
+      }
+    ]
+  },
+  {
+    "_id": "5b683f0ce8bdec24a200697b",
+    "name": "example",
+    "language": "en",
+    "brand": "playground",
+    "type": "modal",
+    "content": [
+      {
+        "key": "title",
+        "value": "This is test modal"
+      }
+    ]
+  },
+  {
+    "_id": "5b683f1ae8bdec24a200697c",
+    "name": "example",
+    "language": "pl",
+    "brand": "playground",
+    "type": "modal",
+    "content": [
+      {
+        "value": "To jest test pop up",
+        "key": "title"
+      }
+    ]
+  }
+]
